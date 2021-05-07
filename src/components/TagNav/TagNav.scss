@@ -1,0 +1,18 @@
+@use 'src/components/base';
+
+.tag-nav-div {
+
+    button {
+        border: none;
+        background-color: #fff;
+    }
+}
+
+.tag-item {
+    margin-right: 15px;
+}
+
+.tag-item-div {
+    border-bottom: 1px solid #F4F4F4;
+    height: 41px;
+}

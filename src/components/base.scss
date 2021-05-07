@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;500&display=swap');
+
+// main colors
+
+$primary1: #000000;
+$primary2: #474747;
+$primary3: #FFBA9D; 
+
+// neutral colors
+
+$darkGrey: #777777;
+$grey: #dfdfdf;
+$lightGrey: #f4f4f4;   
+$white: #fff;   
+
+// semantic colors
+
+$errorState: #891900; 
+
+
+h1 {
+    font: 500 24px 'Roboto Mono', sans-serif;
+    line-height: 36px;
+    color: $primary2;
+}
+
+h2 {
+    font: 500 19px 'Roboto Mono', sans-serif;
+    line-height: 28px;
+}
+
+p {
+    font: 300 24px 'Roboto Mono', sans-serif;
+    line-height: 24px;
+    color: $primary2;
+}
+
+$pink: #FF467E;
