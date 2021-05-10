@@ -10,7 +10,7 @@ const HomeBody = observer(() => {
             <h1>Recent Posts</h1>
             <TagNav tags={['Programming','JS','React','Python',]} />
             {(() => {
-                return [...posts.values()].map((post) => <Post key={Math.random().toString(36).substr(2, 9)} date={post.date} title={post.title} tags={post.tags}/>)
+                return [...posts.values()].map((post) => <Post key={Math.random().toString(36).substr(2, 9)} date={post.date} title={post.title} tags={post.tags} id={post.id}/>)
             })()}
             <Pagination></Pagination>
         </div>

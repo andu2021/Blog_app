@@ -1,0 +1,12 @@
+@use 'src/components/base';
+
+.post-page-div {
+    width: 736px;    
+    border-bottom: 1px solid #F4F4F4;
+}
+
+.post-image-div {
+    max-width: 736px; 
+    height: 352px;
+    background-color: yellowgreen;
+}

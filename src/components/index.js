@@ -7,3 +7,4 @@ export {default as TagNav} from './TagNav/TagNav';
 export {default as LeftSidebar} from './LeftSidebar/LeftSidebar';
 export {default as Pagination} from './Pagination/Pagination';
 export {default as Socials} from './Socials/Socials';
+export {default as PostPage} from './PostPage/PostPage';
