@@ -4,3 +4,38 @@
     min-width: 256px;
     width: 256px;
 }
+
+.navbar-title {
+    @extend .heading1;
+    color: base.$primary2;
+}
+
+.nav-link {
+    @extend .body2;
+    color: base.$darkGrey;
+}
+
+.dropdown-toggle {
+    border: none;
+    background-color: transparent;
+    @extend .body2;
+    color: base.$darkGrey;
+}
+
+.search-input {
+    border: none;
+    height: 40px;
+    background-color: base.$lightGrey;
+    padding-left: 10px;
+    @extend .small-text;
+    color: base.$primary2;
+}
+
+.button-search {
+    border: none;
+    height: 40px;
+    width: 40px;
+    border-radius: 3px;
+    background-color: base.$primary3;
+    color: white;
+}

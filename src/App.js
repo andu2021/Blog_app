@@ -16,7 +16,7 @@ const App = () => {
       <Header></Header>    
         <Switch>
           <Route exact path='/'>
-            <div className='container-fluid p-0 d-flex justify-content-between flex-wrap-reverse'>
+            <div className='container-fluid p-0 d-flex justify-content-between align-content-center flex-wrap-reverse'>
               <LeftSidebar title='What I do!' body={sidebarBody}/>
               <HomeBody />
             </div>

@@ -2,6 +2,19 @@
 
 .sidebar-div {
     max-width: 288px;
+    width: 288px;
     height: 350px;
     margin: 0px;
+
+    p {
+        @extend .body2;
+
+        button {
+            border:none;
+        }
+    }
+}
+
+.explore-me {
+    @extend .small-text;
 }

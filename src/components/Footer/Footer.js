@@ -1,4 +1,5 @@
 import React from 'react';
+import { Socials } from '..';
 import './Footer.scss';
 
 const Footer = () => {
@@ -7,7 +8,7 @@ const Footer = () => {
         <footer className='container-fluid p-5 d-flex justify-content-between align-items-center footer'>
             <div className='container d-flex justify-content-between align-items-center flex-wrap'>
                 <span>Copyright &copy; 2020 Melinora, Inc</span>
-                <span>social networks...</span>
+                <span><Socials></Socials></span>
             </div>
         </footer>
     )

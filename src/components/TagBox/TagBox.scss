@@ -3,4 +3,9 @@
 .tag {
     margin: 5px 5px 5px 0px;
     background-color: #F4F4F4;
+    height: 30px;
+    text-align: center;
+    vertical-align: center;
+    @extend .small-text;
+    color: base.$primary2;
 }

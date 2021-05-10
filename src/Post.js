@@ -20,7 +20,8 @@ class Post {
 export let posts = observable(new Map([
     [Post.getId(), new Post('Elixir vs Python', 'April 5 2021', '', ['Progamming', 'py', 'ex'])],
     [Post.getId(), new Post('Golang ', 'June 15 2021', '',['Progamming', 'go'])],
-    [Post.getId(), new Post('JS and Rect', 'April 5 2021', '',['Progamming', 'JavaScript', 'js'])],
+    [Post.getId(), new Post('JS and React', 'April 5 2021', '',['Progamming', 'JavaScript', 'js'])],
+    [Post.getId(), new Post('Flutter vs React', 'April 5 2021', '',['Progamming', 'JavaScript', 'Dart'])],
 ]))
 
 export default Post;

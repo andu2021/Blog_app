@@ -1,1 +1,18 @@
 @use 'src/components/base';
+
+.post-div {
+    max-width: 736px;
+    border-bottom: 1px solid #F4F4F4;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.post-date {
+    @extend .small-text;
+    color: base.$darkGrey;
+}
+
+.post-title {
+    @extend .heading1;
+    color: base.$primary2;
+}

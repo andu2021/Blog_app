@@ -1,0 +1,11 @@
+@use 'src/components/base';
+
+.social-div {
+    width: 143.5px;
+    height: 20px;
+
+}
+
+.soc-link {
+    color: base.$primary2;
+}

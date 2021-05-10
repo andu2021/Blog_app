@@ -6,7 +6,7 @@ const TagBox = ({tagNames = []}) => {
         <div className='d-flex flex-wrap'> 
             {(() => {
                 return tagNames.reduce((acc, tagName) => {
-                    return acc.concat(<h3 key={Math.random().toString(36).substr(2, 9) } className='tag'>#{tagName}</h3>)
+                    return acc.concat(<p key={Math.random().toString(36).substr(2, 9) } className='tag'>#{tagName}</p>)
                 }, [])
             })()}
         </div>

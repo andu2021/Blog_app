@@ -18,21 +18,36 @@ $white: #fff;
 $errorState: #891900; 
 
 
+.heading1 {
+    font: 500 24px 'Roboto Mono', sans-serif;
+    line-height: 36px;
+    color: $primary2;
+}
+
+.heading2 {
+    font: 500 19px 'Roboto Mono', sans-serif;
+    line-height: 28px;
+}
+
+.body1 {
+    font: 500 16px 'Roboto Mono', sans-serif;
+    line-height: 32px;
+}
+
+.body2 {
+    font: 300 16px 'Roboto Mono', sans-serif;
+    line-height: 24px;
+}
+
+.small-text {
+    font: 500 12px 'Roboto Mono', sans-serif;
+    line-height: 14px;
+}
+
+
 h1 {
     font: 500 24px 'Roboto Mono', sans-serif;
     line-height: 36px;
     color: $primary2;
 }
 
-h2 {
-    font: 500 19px 'Roboto Mono', sans-serif;
-    line-height: 28px;
-}
-
-p {
-    font: 300 24px 'Roboto Mono', sans-serif;
-    line-height: 24px;
-    color: $primary2;
-}
-
-$pink: #FF467E;
