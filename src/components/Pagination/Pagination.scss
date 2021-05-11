@@ -1,1 +1,15 @@
 @use 'src/components/base';
+
+.pagination {
+
+    margin-top: 25px;
+
+    @at-root #{&}__button {
+        border: none;
+        margin-right: 5px;
+    }
+
+    @at-root #{&}--number {
+        background-color: transparent;
+    }
+}

@@ -26,6 +26,12 @@ const App = observer(() => {
             <Route exact path='/blog/:id'>
                 <PostPage></PostPage>
             </Route>
+            <Route exact path='/search/:search'>
+                <HomeBody />
+            </Route>
+            <Route exact path='/tag/:tag'>
+                <HomeBody />
+            </Route>
             <Route exact path='/contact-us'>
                 <h1>Contact us </h1>
             </Route>

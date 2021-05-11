@@ -1,0 +1,24 @@
+@use 'src/components/base';
+
+.div-image {
+    min-width: 40px;
+    min-height: 40px;
+    max-width: 40px;
+    max-height: 40px;
+    background-color: yellowgreen;
+}
+
+.author {
+    @extend .heading2;
+    color: base.$primary2;
+
+    span {
+        @extend .body2;
+        color: base.$darkGrey;
+    }
+}
+
+.content {
+    @extend .body2;
+    color: base.$primary2;
+}

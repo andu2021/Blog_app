@@ -1,0 +1,26 @@
+@use 'src/components/base';
+
+.label {
+    @extend .body1;
+    color: base.$primary2;
+
+    input {
+        font-size: 12px;
+        margin-right: 10px; 
+    }
+}
+
+.chechbox-label {
+    @extend .small-text;
+    color: base.$primary2;
+}
+
+.button-post {
+    width: 88px;
+    height: 44px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: base.$primary2;
+    color: white;
+}

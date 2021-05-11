@@ -1,9 +1,12 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom';
 
 import './Header.scss';
 
 const Header = () => {
+
+    const [searchValue, setSearchValue] = useState('')
+
     return (
         <nav className='navbar navbar-expand-md p-0 navbar-light mb-5 mt-2  '>
         <Link className='navbar-brand navbar-title' to='/'>Meliora</Link>
@@ -34,10 +37,9 @@ const Header = () => {
             </ul>
         </div>
         <form className='container-fluid d-flex mr-auto search-form' >
-            <input className='flex-fill search-input' type='search' placeholder='Search'></input>
-            <button type='submit' className='button-search'><i className='fas fa-search'></i></button>
+            <input className='flex-fill search-input' type='search' placeholder='Search' onChange={(ev) => setSearchValue(ev.target.value)}></input>
+            <Link to={`/search/${searchValue}`}><button type='button' className='button-search' ><i className='fas fa-search' onClick={() => {}}></i></button></Link>
         </form>
-
         </nav>
     )
 }
